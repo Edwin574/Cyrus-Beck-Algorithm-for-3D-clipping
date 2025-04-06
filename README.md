@@ -36,3 +36,6 @@ python -m venv venv
 pip install -r requirements.txt
 python main.py
 ```
+
+## Screenshot
+![Screenshot](Screenshot 2025-04-06 at 23.27.49.png)
