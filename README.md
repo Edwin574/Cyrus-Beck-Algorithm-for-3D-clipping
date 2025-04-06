@@ -9,10 +9,10 @@ The Cyrus-Beck algorithm clips a line against a convex volume (here, a prism) in
 3. Finds the largest entering and smallest exiting intersection points to determine the clipped segment.
 
 ## Implementation
-The algorithm is implemented in `src/clipping.py`:
+The algorithm is implemented in `clipping.py`:
 - The `cyrus_beck_3d` function clips a line against the prism by calculating intersection parameters \(t\) for each plane.
 - For the sample line from \((2, 2, -2)\) to \((2, 2, 5)\), it clips to \((2, 2, 0)\) to \((2, 2, 3)\).
-- The result is visualized using OpenGL, with rendering handled in `src/rendering.py`.
+- The result is visualized using OpenGL, with rendering handled in `rendering.py`.
 
 ## Folder Structure
 
